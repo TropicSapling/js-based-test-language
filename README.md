@@ -1,2 +1,2 @@
 # js-based-test-language
-Successor of PBTL: 
+Successor of PBTL.
