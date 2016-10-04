@@ -5,3 +5,5 @@ Will be written in itself in the end, but for now I'll write it in JS because it
 
 ### Usage
 `jtl <file> <options>`
+
+(jtl = Javascript Test Language, will be changed to a better name if I make this a big project)
