@@ -1,0 +1,12 @@
+{
+  "name": "js-based-test-language",
+  "version": "0.0.1",
+  "description": "Test Language written in JS, built upon C",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TropicSapling/js-based-test-language.git"
+  }
+}
