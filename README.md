@@ -22,3 +22,6 @@ Syntax
 Since this programming language fully supports programs written in C there's no changes, only additions and alternatives. For example some of these include:
 * Alt. to pointer (`*`): `>`. Example: `>pointerVar`
 * Storing variable in other places than RAM: `$()` or `$`. Example: `$('path/to/dir')diskVar` or `$diskVar`. Omitting the paranthesis will result in the compiler choosing where in the disk to store the variable for you.
+
+### Other features
+* Garbage Collection, can be disabled by passing arg. `--nogc` to compiler. It will still work if you've manually collected most garbage, and can collect the ones you missed, but might increase the compilation time.
