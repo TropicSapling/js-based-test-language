@@ -16,3 +16,9 @@ Options
 * `--nogc`: Disable the GC (= Garbage Collector).
 
 **Note:** Currently option `-c` is default because I have not yet found a way to compile directly to machine code or somehow include the C compiler in this compiler.
+
+Syntax
+-------
+Since this programming language fully supports programs written in C there's no changes, only additions and alternatives. For example some of these include:
+* Alt. to pointer (`*`): `>`. Example: `>pointerVar`
+* Storing variable in other places than RAM: `$()` or `$`. Example: `$('path/to/dir')diskVar` or `$diskVar`. Omitting the paranthesis will result in the compiler choosing where in the disk to store the variable for you.
