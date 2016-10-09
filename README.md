@@ -25,3 +25,4 @@ Since this programming language fully supports programs written in C there's no 
 
 ### Other features
 * Garbage Collection, can be disabled by passing arg. `--nogc` to compiler. It will still work if you've manually collected most garbage, and can collect the ones you missed, but might increase the compilation time.
+* Channels & something similar to Go's goroutines.
